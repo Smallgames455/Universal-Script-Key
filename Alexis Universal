@@ -48,7 +48,7 @@ setclipboard("https://discord.com/invite/9VPGG8R9Sj")
 toclipboard("https://discord.com/invite/9VPGG8R9Sj")
       		print("button pressed")
   	end    
-
+})
 Tab:AddTextbox({
 	Name = "Enter Key",
 	Default = "",
