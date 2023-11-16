@@ -16,7 +16,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Smallgames455/Univers
 
 end
 
-
 function CorrectKeyNotifications()
     OrionLib:MakeNotification({
         Name = "Correct Key",
@@ -75,6 +74,7 @@ local Tab = Window:MakeTab({
 	Name = "Links",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
 
 Tab:AddButton({
 	Name = "YouTube",
@@ -86,7 +86,7 @@ toclipboard("https://youtube.com/@AlexisNamedAlex?si=ojXkmhSw0skPNUl_")
 })
 
 Tab:AddButton({
-	Name = "ClickTab:AddButton({
+	Name = "ClickTab:AddButton",
 	Name = "Alex Another dc Server",
 	Callback = function()
 setclipboard("https://discord.com/invite/nyfXtWct")
