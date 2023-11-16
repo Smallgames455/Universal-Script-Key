@@ -41,15 +41,6 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddButton({
-	Name = "Click To Get The Key",
-	Callback = function()
-setclipboard("https://discord.com/invite/9VPGG8R9Sj")
-toclipboard("https://discord.com/invite/9VPGG8R9Sj")
-      		print("button pressed")
-  	end    
-})
-
 Tab:AddTextbox({
 	Name = "Enter Key",
 	Default = "",
@@ -68,5 +59,38 @@ Tab:AddButton({
      else
         WrongKeyNotifications()
         end
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Click To Get The Key",
+	Callback = function()
+setclipboard("https://discord.com/invite/9VPGG8R9Sj")
+toclipboard("https://discord.com/invite/9VPGG8R9Sj")
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Links",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+
+Tab:AddButton({
+	Name = "YouTube",
+	Callback = function()
+setclipboard("https://youtube.com/@AlexisNamedAlex?si=ojXkmhSw0skPNUl_")
+toclipboard("https://youtube.com/@AlexisNamedAlex?si=ojXkmhSw0skPNUl_")
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ClickTab:AddButton({
+	Name = "Alex Another dc Server",
+	Callback = function()
+setclipboard("https://discord.com/invite/nyfXtWct")
+toclipboard("https://discord.com/invite/nyfXtWct")
+      		print("button pressed")
   	end    
 })
