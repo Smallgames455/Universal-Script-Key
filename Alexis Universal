@@ -35,7 +35,7 @@ function WrongKeyNotifications()
 end
 
 local Tab = Window:MakeTab({
-	Name = "Key Room",
+	Name = "Key",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -64,8 +64,8 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Click To Get The Key",
 	Callback = function()
-setclipboard("https://discord.com/invite/9VPGG8R9Sj")
-toclipboard("https://discord.com/invite/9VPGG8R9Sj")
+setclipboard("https://discord.com/invite/ZQWdRtHkG4")
+toclipboard("https://discord.com/invite/ZQWdRtHkG4")
       		print("button pressed")
   	end    
 })
