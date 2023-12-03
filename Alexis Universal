@@ -35,13 +35,13 @@ function WrongKeyNotifications()
 end
 
 local Tab = Window:MakeTab({
-	Name = "Key",
+	Name = "Key 🎄",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 Tab:AddTextbox({
-	Name = "Enter Key",
+	Name = "Enter Key 🎄",
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
@@ -50,7 +50,7 @@ Tab:AddTextbox({
 })
 
 Tab:AddButton({
-	Name = "Check Key!",
+	Name = "Check Key! 🎄",
 	Callback = function()
         if _G.KeyInput == _G.Key then
          MakeScriptHub()
@@ -62,13 +62,15 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Click To Get The Key",
+	Name = "Click To Get The Key 🎄",
 	Callback = function()
 setclipboard("https://discord.com/invite/ZQWdRtHkG4")
 toclipboard("https://discord.com/invite/ZQWdRtHkG4")
       		print("button pressed")
   	end    
 })
+
+Tab:AddLabel("Merry Christmas 🎄")
 
 local Tab = Window:MakeTab({
 	Name = "Links",
@@ -77,7 +79,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "YouTube",
+	Name = "YouTube🎄",
 	Callback = function()
 setclipboard("https://youtube.com/@AlexisNamedAlex?si=ojXkmhSw0skPNUl_")
 toclipboard("https://youtube.com/@AlexisNamedAlex?si=ojXkmhSw0skPNUl_")
